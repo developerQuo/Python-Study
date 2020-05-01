@@ -60,21 +60,19 @@
    
 	** tuple <-> list 변환 가능.
 	+ list: 0기반 인덱스. 가변.
-	<pre>
-	lst = [2, 5.5, 'str']</pre>   
-   
 		- lst[:]를 사용하면 복사된 새로운 리스트 객체를 생성.
 		- list는 문자열과 다르게 mutable하다. item을 바꿀 수 있다.
-		<pre>
-		letters = ['a', 'b', 'c', 'd']
-		letters[:2] = ['A', 'B']
-		letters
-		>>> ['A', 'B', 'c', 'd']
-		letters[:] = []
-		letters
-		>>> []
-		len(letters)
-		>>> 0</pre>   
+	<pre>
+	lst = [2, 5.5, 'str']
+	letters = ['a', 'b', 'c', 'd']
+	letters[:2] = ['A', 'B']
+	letters
+	>>> ['A', 'B', 'c', 'd']
+	letters[:] = []
+	letters
+	>>> []
+	len(letters)
+	>>> 0</pre>   
 	+ dict
 	+ set
 
