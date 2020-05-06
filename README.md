@@ -1,6 +1,6 @@
 # Python-Study
 
-* ### Python 3.8.2
+* ### env : Python 3.8.2
 * ### 파이썬의 특징
 	+ 간결한 문법
 		- 들여쓰기로 범위를 지정.
@@ -116,7 +116,7 @@
 	>>> [0, 1, 2, 3]
 	</pre>
 	
-	# pass 명령어는 클래스, 함수, 반복문에서 사용 가능하다.
+	* pass 명령어는 클래스, 함수, 반복문에서 사용 가능하다.
 	<pre>
 	while True:
 		pass
@@ -138,8 +138,8 @@
 			- ex) def func(pos1, pos2, /, pos_or_kwd, *, kwd1, kwd2):
 			- pos1, pos2 : Positional only (/ 키워드 앞까지)
 				- 오직 매개변수 위치에만 영향을 받는다.
-			- / : Positional or keyword	(/, *가 없다면 default)
-			- * : Keyword only (* 키워드 이 후부터)
+			- /: Positional or keyword	(/, *가 없다면 default)
+			- *: Keyword only	(* 키워드 이 후부터)
 		+ lambda expr : 산수를 간단하게 표현 가능.
 		+ Documentation Strings : 함수의 __doc__ 기능
 			- 첫 줄은 객체의 목적을 요약할 것.
